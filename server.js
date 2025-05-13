@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 // the route we're working with
 app.get("/users", (req, res) => {
     // replace with a custom URL as required
-    const backendUrl = "https://jsonplaceholder.typicode.com/users";
+    const backendUrl = 'https://ch.tetr.io/api/users/groober/summaries/league';
     // return the data without modification
     axios.get(backendUrl).then(response => res.send(response.data));
 });
